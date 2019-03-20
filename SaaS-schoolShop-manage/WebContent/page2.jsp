@@ -7,9 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<form action = "jump/jump1" method="git">
-pagNum: <input type="text" name="pagNum" value="1"><br>
-<input type="submit"><br>
-</form>
+<h1>This is page2!</h1>
 </body>
 </html>
