@@ -18,6 +18,7 @@ public class TestJumpPage {
 	@RequestMapping(value = "/jump1")
 	public String testJumo() {
 		System.out.println(" get testJumo success!!");
+		testService.addTest();
 		return "page2";
 	}
 

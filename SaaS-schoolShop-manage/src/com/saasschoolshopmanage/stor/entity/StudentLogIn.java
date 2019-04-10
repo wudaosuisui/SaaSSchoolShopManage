@@ -10,7 +10,7 @@ import org.hibernate.annotations.GenericGenerator;
 public class StudentLogIn {
 
 	private int id;
-	private String name;
+	private String userName;
 	private String passWord;
 
 	public StudentLogIn() {
@@ -27,12 +27,12 @@ public class StudentLogIn {
 		this.id = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getUserName() {
+		return userName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
 
 	public String getPassWord() {
