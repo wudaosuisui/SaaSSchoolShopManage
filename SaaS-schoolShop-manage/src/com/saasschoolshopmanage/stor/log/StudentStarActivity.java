@@ -1,4 +1,4 @@
-package com.saasschoolshopmanage.stor.entity;
+package com.saasschoolshopmanage.stor.log;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
