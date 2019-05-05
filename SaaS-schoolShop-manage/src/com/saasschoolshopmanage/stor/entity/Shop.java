@@ -24,6 +24,8 @@ public class Shop {
 	private String img;
 	// 总管理员id
 	private int adminId;
+	// 销售员id
+	private int salespersonId;
 	// 上新商品id
 	private int goodsId;
 	// 店铺活动id
@@ -97,6 +99,14 @@ public class Shop {
 
 	public void setAdminId(int adminId) {
 		this.adminId = adminId;
+	}
+
+	public int getSalespersonId() {
+		return salespersonId;
+	}
+
+	public void setSalespersonId(int salespersonId) {
+		this.salespersonId = salespersonId;
 	}
 
 	public int getGoodsId() {
