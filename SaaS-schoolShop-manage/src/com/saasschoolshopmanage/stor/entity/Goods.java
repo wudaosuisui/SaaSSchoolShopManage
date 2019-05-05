@@ -136,4 +136,9 @@ public class Goods {
 		this.starCount++;
 	}
 
+	// reduce
+	public void starCountRed() {
+		this.starCount--;
+	}
+
 }
