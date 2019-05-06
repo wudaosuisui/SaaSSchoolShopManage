@@ -1,0 +1,78 @@
+.else{
+	border-style:solid;
+    border-width:1px;
+    border-color:red;
+    /*圆角*/
+    border-radius:25px;
+    /*半透明*/
+	opacity:0.5;
+	/*外边框*/
+	margin:5px 33px;
+}
+
+.findFrame{
+	Float:left;
+	width:80%;
+	height:25px;
+	border-style:solid;
+    border-width:1px;
+    border-color:#7A7A7A;
+    border-radius:8px;
+    background-color:#FFFFFF;
+	opacity:0.9;
+	font-size:16px;
+	color:#BBBBBB;
+	margin-top:5px;
+	margin-left:10px;
+}
+/*二类按钮
+主要用于检索按钮
+*/
+.icon2{
+	height:23px;
+	margin-top:10px;
+	margin-left:10px;
+}
+/*一类按钮
+主要用于页面底部 3个主页的跳转按钮
+*/
+.icon1{
+	height:40px;
+	margin:5px 33px;
+}
+#classFind{
+    height:270px;
+    width:100%;
+}
+#typeFind{
+	border-style:solid;
+    border-width:1px;
+    border-color:#BBBBBB;
+    background-color:#FFFFFF;
+    height:270px;
+    width:100%-2;
+    border-radius:15px;
+}
+#body{
+    height:515px;
+    width:100%;
+    background-color:#FEFFD1;
+}
+#homepage{
+	
+	border-style:solid;
+    border-width:1px;
+    border-color:black;
+    height:640px;
+    width:360px;
+}
+#head{
+    height:75px;
+    width:100%;
+    background-color:#FFB337;
+}
+#bottom{
+    height:50px;
+    width:100%;
+    background-color:#FFB337;
+}
