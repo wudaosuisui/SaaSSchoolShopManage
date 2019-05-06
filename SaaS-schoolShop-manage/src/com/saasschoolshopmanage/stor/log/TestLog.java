@@ -2,13 +2,12 @@ package com.saasschoolshopmanage.stor.log;
 
 import java.util.Date;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 import org.hibernate.annotations.GenericGenerator;
 
-@Entity
+//@Entity
 public class TestLog {
 
 	private int id;

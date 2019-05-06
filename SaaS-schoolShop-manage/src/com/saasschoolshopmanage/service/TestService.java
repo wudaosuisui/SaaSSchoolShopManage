@@ -19,7 +19,7 @@ public class TestService {
 	public void addTest() {
 		Session session = sessionFactory.openSession();
 		StudentLogIn stu = new StudentLogIn();
-		stu.setUserName("testUserName");
+		stu.setUserLoginName("testUsetNsme");
 		stu.setPassWord("testPassWord");
 		studentDao.inster(stu);
 		session.close();
