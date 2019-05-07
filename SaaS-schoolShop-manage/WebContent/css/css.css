@@ -1,14 +1,14 @@
-	*{
+*{
 	margin: 0px;
 	padding: 0px;
 	font-size: 13px;
 }
+
+
 #first{
 	border-style:solid;
     border-width:1px;
     border-color:red;
     height:50px;
     width:100px;
-}
-.font{
 }

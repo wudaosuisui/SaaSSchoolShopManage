@@ -5,13 +5,14 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Student head</title>
-<link rel="stylesheet" type="text/css" href="../css/css.css">
-<link rel="stylesheet" type="text/css" href="css/stuCss.css">
 </head>
 <body>
 <div id="head">
-<h1>This is head</h1>
-<div class="findFrame">&nbsp;&nbsp;&nbsp;请输入检索内容</div><a href=""><img name="find" class="icon2" src="img/find_smal.png"></a>
+<h1>&nbsp;&nbsp;&nbsp;综合检索</h1>
+<a href="">
+<div class="findFrame">&nbsp;&nbsp;&nbsp;请输入检索内容</div>
+<img name="find" class="icon2" src="${pageContext.request.contextPath}/Student/img/find_smal.png">
+</a>
 </div>
 </body>
 </html>
