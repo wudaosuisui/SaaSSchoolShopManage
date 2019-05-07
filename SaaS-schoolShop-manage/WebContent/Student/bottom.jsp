@@ -8,12 +8,35 @@
 </head>
 <body>
 <div id="bottom">
+<% String at = (String)session.getAttribute("at");%>
 
-<a href="${pageContext.request.contextPath}/Student/homepage.jsp"><img name="home" class="icon1" src="${pageContext.request.contextPath}/Student/img/find.png"></a>
+<!-- 到主页（检索页） -->
+<a href="${pageContext.request.contextPath}/Students/gethomepage">
+<%if(at == "home"){ %>
+<img name="home" class="icon1" src="${pageContext.request.contextPath}/Student/img/find_on.png">
+<%}else{ %>
+<img name="home" class="icon1" src="${pageContext.request.contextPath}/Student/img/find.png">
+<%} %>
+</a>
 
-<a href="${pageContext.request.contextPath}/Student/hotpage.jsp"><img name="hot" class="icon1" src="${pageContext.request.contextPath}/Student/img/hot.png"></a>
+<!-- 热门页 -->
+<a href="${pageContext.request.contextPath}/Students/gethotpage">
+<%if(at == "hot"){ %>
+<img name="hot" class="icon1" src="${pageContext.request.contextPath}/Student/img/hot_on.png">
+<%}else{ %>
+<img name="hot" class="icon1" src="${pageContext.request.contextPath}/Student/img/hot.png">
+<%} %>
+</a>
 
-<a href="${pageContext.request.contextPath}/Student/peoplepage.jsp"><img name="people" class="icon1" src="${pageContext.request.contextPath}/Student/img/peo_on.png"></a>
+<!-- 个人主页 -->
+<a href="${pageContext.request.contextPath}/Students/getpeoplepage">
+<%if(at == "people"){ %>
+<img name="people" class="icon1" src="${pageContext.request.contextPath}/Student/img/peo_on.png">
+<%}else{ %>
+<img name="people" class="icon1" src="${pageContext.request.contextPath}/Student/img/peo.png">
+<%} %>
+</a>
+
 </div>
 </body>
 </html>

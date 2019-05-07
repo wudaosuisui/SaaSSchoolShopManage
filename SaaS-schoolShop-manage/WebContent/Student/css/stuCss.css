@@ -8,9 +8,54 @@
 	opacity:0.5;
 	/*外边框*/
 	margin:5px 33px;
+	/*剧中*/
+	text-align:center;
+    border-radius:25px;
+	Float:left;
+	background-color:#F0A0FF;
+}
+/*热门内容-样式*/
+#getTheOne{
+	
+	background-color:#FFFFFF;
+}
+.top-oneOf{
+	font-size:40px;
+	text-align:center;
+	background-color:#E8E8E8;
+	width:40%;
+	height:70px;
     border-radius:25px;
 	Float:left;
 }
+.shangxin{
+	margin-left:20px;
+}
+#iframe-frame{
+	width:100%;
+	height:508px;
+	background-color:#FFFFFF;
+    border-radius:25px;
+	text-align:center;
+}
+#iframe{
+	width:90%;
+	height:100%;
+}
+#hot-body{
+	border-style:solid;
+    border-width:1px;
+    border-color:#FFD79C;
+	width:100%;
+	height:590px;
+	background-color:#FFD79C;
+}
+#top{
+	margin-top:10px;
+	width:100%;
+	height:70px;
+}
+/*检索页样式*/
 .types{
 	width:100%;
 }
@@ -49,6 +94,7 @@
 	margin-top:10px;
 	margin-left:10px;
 }
+/*底部样式*/
 /*一类按钮
 主要用于页面底部 3个主页的跳转按钮
 */
@@ -74,6 +120,21 @@
     width:100%;
     background-color:#FEFFD1;
 }
+/*三个页面主体*/
+#hotpage{
+	border-style:solid;
+    border-width:1px;
+    border-color:black;
+    height:640px;
+    width:360px;
+}
+#peoplepage{
+	border-style:solid;
+    border-width:1px;
+    border-color:black;
+    height:640px;
+    width:360px;
+}
 #homepage{
 	border-style:solid;
     border-width:1px;
@@ -81,6 +142,7 @@
     height:640px;
     width:360px;
 }
+/* 头部、底部*/
 #head{
     height:75px;
     width:100%;
