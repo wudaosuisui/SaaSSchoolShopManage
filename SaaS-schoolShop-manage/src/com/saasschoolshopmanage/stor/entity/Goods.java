@@ -16,6 +16,7 @@ public class Goods {
 	private String img;
 	private String shopName;
 	private int shopId;
+	private int price;
 	// 编辑管理员id
 	private int adminId;
 	// 编辑管理员微信号
@@ -66,6 +67,14 @@ public class Goods {
 
 	public void setShopName(String shopName) {
 		this.shopName = shopName;
+	}
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
 	}
 
 	public int getShopId() {

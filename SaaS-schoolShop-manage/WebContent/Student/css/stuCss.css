@@ -80,6 +80,40 @@
 	background-color:#FFD79C;
 }
 /*热门内容-样式*/
+.good-name{
+	font-size:15px;
+	color:black;
+	Float:left;
+}
+.good-shop{
+	
+	font-size:10px;
+	color:black;
+	Float:left;
+}
+.good-price{
+	
+	font-size:10px;
+	color:black;
+	Float:right;
+}
+.star-img{
+	
+	Float:left;
+	height:45px;
+}
+.goods-img{
+	Float:left;
+	height:100px;
+}
+.goods{
+	border-style:solid;
+    border-width:1px;
+    border-color:#BBBBBB;
+    width:300px;
+	height:100px;
+	margin-top:2px;
+}
 #hot-boottom{
 	border-style:solid;
     border-width:1px;
