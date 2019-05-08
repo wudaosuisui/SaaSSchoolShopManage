@@ -10,30 +10,45 @@
 </head>
 
 <body>
-<div id="hotpage">
-<div id = "hot-body">
-<div id = "top">
-<% String oneOf = (String)session.getAttribute("oneOf");%>
-<%if(oneOf=="shangxin"){ %>
-<div class="top-oneOf shangxin" id="getTheOne">
-<%}else{ %>
-<div class="top-oneOf shangxin" >
-<%} %>
-上新
-</div>
-<%if(oneOf=="huodong"){ %>
-<div class="top-oneOf" id="getTheOne">
-<%}else{ %>
-<div class="top-oneOf" >
-<%} %>
-活动
-</div>
-</div>
-<div id = "iframe-frame">
-<iframe id = "iframe" src="${pageContext.request.contextPath}/Students/hotpage/shangxin" scrolling="yes" />
-</div>
-</div>
-<jsp:include page="bottom.jsp" flush="true"/>
-</div>
+	<a href="${pageContext.request.contextPath}/Students/getpeoplepage">
+	<div id="hotpage">
+	<div id = "hot-body">
+	<div id = "top">
+	<% String oneOf = (String)session.getAttribute("oneOf");%>
+	
+	<a href="${pageContext.request.contextPath}/Students/hotpage/shangxin">
+	<%if(oneOf=="shangxin"){ %>
+	<div class="top-oneOf shangxin" id="getTheOne">
+	<%}else{ %>
+	<div class="top-oneOf shangxin" >
+	<%} %>
+	上新
+	
+	</div>
+	</a>
+	
+	<a href="${pageContext.request.contextPath}/Students/hotpage/huodong">
+	<%if(oneOf=="huodong"){ %>
+	<div class="top-oneOf" id="getTheOne">
+	<%}else{ %>
+	<div class="top-oneOf" >
+	<%} %>
+	活动
+	</div>
+	</a>
+	
+	</div>
+	<div id = "iframe-frame">
+	<%if(oneOf=="shangxin"){ %>
+	<iframe id = "iframe" src="${pageContext.request.contextPath}/Student/shangxin.jsp" scrolling="yes" />
+	<%}else{ %>
+	<iframe id = "iframe" src="${pageContext.request.contextPath}/Student/huodong.jsp" scrolling="yes" />
+	<%} %>
+	
+	</div>
+	<jsp:include page="bottom.jsp" flush="true"/>
+	</div>
+	</div>
+	</a>
 </body>
 </html>
