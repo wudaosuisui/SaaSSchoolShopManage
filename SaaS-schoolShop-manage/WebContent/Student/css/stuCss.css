@@ -80,6 +80,11 @@
 	background-color:#FFD79C;
 }
 /*热门内容-样式*/
+.huodong-star-img{
+	
+	Float:left;
+	height:55px;
+}
 .good-name{
 	font-size:15px;
 	color:black;

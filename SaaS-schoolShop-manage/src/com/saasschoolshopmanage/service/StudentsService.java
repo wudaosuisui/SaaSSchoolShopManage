@@ -8,8 +8,10 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.stereotype.Service;
 
+import com.saasschoolshopmanage.stor.dao.ActivityDao;
 import com.saasschoolshopmanage.stor.dao.GoodsDao;
 import com.saasschoolshopmanage.stor.dao.StudentDao;
+import com.saasschoolshopmanage.stor.entity.Activity;
 import com.saasschoolshopmanage.stor.entity.Goods;
 
 @Service
@@ -20,12 +22,21 @@ public class StudentsService {
 	private StudentDao studenDao;
 	@Resource
 	private GoodsDao goodsDao;
+	@Resource
+	private ActivityDao activityDao;
 
 	public List<Goods> getGoodsList() {
 		Session session = sessionFactory.openSession();
 		List<Goods> goodsList = goodsDao.getList();
 		session.close();
 		return goodsList;
+	}
+
+	public List<Activity> getActivitysList() {
+		Session session = sessionFactory.openSession();
+		List<Activity> avtivityList = activityDao.getList();
+		session.close();
+		return avtivityList;
 	}
 
 }
